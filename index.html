@@ -1,36 +1,92 @@
-<index.html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
 
     <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
-    <title>Volans AgriTech | International Trading & Supply</title>
+    <!-- ==============================
+         PRIMARY SEO
+    =============================== -->
+
+    <title>
+        Volans AgriTech | Indian Agro Products & International Trading
+    </title>
 
     <meta name="description"
-          content="Volans AgriTech connects international buyers with trusted suppliers across India and Europe. Agricultural products, food ingredients, industrial products, sustainable solutions and German technology.">
+          content="Volans AgriTech is an India-based international trading company supplying Indian spices, guar gum, castor oil and derivatives, Basmati rice, millets, animal feed, dry fruits, jackfruit powder and sustainable products to global buyers.">
 
     <meta name="keywords"
-          content="Volans AgriTech, international trading, India exports, agricultural products, Indian spices, animal feed, castor oil, German engineering, Sabki Mandi, SM-Invest">
+          content="Volans AgriTech, Indian agro products exporter, Indian spices exporter, guar gum supplier India, castor oil exporter India, Basmati rice exporter, animal feed supplier India, jackfruit powder supplier, dry fruits exporter India, international trading company India">
 
     <meta name="author"
           content="Volans AgriTech Pvt. Ltd.">
 
+    <meta name="robots"
+          content="index, follow">
 
-    <!-- FAVICON -->
+    <!-- ==============================
+         CANONICAL URL
+    =============================== -->
+
+    <link rel="canonical"
+          href="https://volansagri.com/">
+
+    <!-- ==============================
+         FAVICON
+    =============================== -->
 
     <link rel="icon"
-          href="assets/favicon.png"
-          type="image/png">
+          href="logo.jpg"
+          type="image/jpeg">
+
+    <!-- ==============================
+         OPEN GRAPH
+    =============================== -->
+
+    <meta property="og:type"
+          content="website">
+
+    <meta property="og:title"
+          content="Volans AgriTech | Indian Agro Products & International Trading">
+
+    <meta property="og:description"
+          content="Volans AgriTech connects international buyers with trusted suppliers across India and Europe, supplying agricultural products, food ingredients, animal feed, castor products, sustainable solutions and selected European technology.">
+
+    <meta property="og:url"
+          content="https://volansagri.com/">
+
+    <meta property="og:site_name"
+          content="Volans AgriTech">
+
+    <meta property="og:image"
+          content="https://volansagri.com/volans%20logo.jpg">
+
+    <!-- ==============================
+         TWITTER / X
+    =============================== -->
+
+    <meta name="twitter:card"
+          content="summary_large_image">
+
+    <meta name="twitter:title"
+          content="Volans AgriTech | Indian Agro Products & International Trading">
+
+    <meta name="twitter:description"
+          content="Connecting international buyers with trusted suppliers across India and Europe.">
+
+    <meta name="twitter:image"
+          content="https://volansagri.com/volans%20logo.jpg">
 
 
     <style>
 
         /* ==============================
-           RESET
-        ============================== */
+           GLOBAL
+        =============================== */
 
         * {
             margin: 0;
@@ -38,24 +94,15 @@
             box-sizing: border-box;
         }
 
-
         html {
             scroll-behavior: smooth;
         }
 
-
-        /* ==============================
-           BODY
-        ============================== */
-
         body {
-
             font-family: Arial, Helvetica, sans-serif;
-
             color: #ffffff;
 
             background:
-
                 radial-gradient(
                     circle at 20% 20%,
                     rgba(43, 111, 87, 0.28),
@@ -83,7 +130,7 @@
 
         /* ==============================
            BACKGROUND GRID
-        ============================== */
+        =============================== */
 
         body::before {
 
@@ -116,7 +163,7 @@
 
         /* ==============================
            CONTAINER
-        ============================== */
+        =============================== */
 
         .container {
 
@@ -132,7 +179,7 @@
 
         /* ==============================
            HEADER
-        ============================== */
+        =============================== */
 
         header {
 
@@ -176,15 +223,19 @@
 
         /* ==============================
            MAIN VOLANS LOGO
-        ============================== */
+        =============================== */
 
         .main-logo {
 
             width: 300px;
 
-            height: 150px;
+            min-height: 150px;
 
-            margin: 35px auto 30px;
+            margin: 45px auto 25px;
+
+            border: 1px solid rgba(255,255,255,0.12);
+
+            border-radius: 14px;
 
             display: flex;
 
@@ -192,29 +243,35 @@
 
             align-items: center;
 
-            background: transparent;
+            background: rgba(255,255,255,0.035);
+
+            padding: 15px;
+
+            overflow: hidden;
         }
 
 
         .volans-logo {
 
-            max-width: 280px;
+            display: block;
 
-            max-height: 140px;
+            width: 100%;
 
-            width: auto;
+            max-width: 270px;
+
+            max-height: 130px;
 
             height: auto;
 
             object-fit: contain;
 
-            display: block;
+            border-radius: 8px;
         }
 
 
         /* ==============================
            HERO
-        ============================== */
+        =============================== */
 
         .hero {
 
@@ -293,8 +350,8 @@
 
 
         /* ==============================
-           COMING SOON
-        ============================== */
+           LIVE BUSINESS STATUS
+        =============================== */
 
         .coming-soon {
 
@@ -360,13 +417,12 @@
                 box-shadow:
                     0 0 0 0 rgba(143,214,148,0);
             }
-
         }
 
 
         /* ==============================
            INTRO
-        ============================== */
+        =============================== */
 
         .intro {
 
@@ -385,8 +441,8 @@
 
 
         /* ==============================
-           SECTION TITLE
-        ============================== */
+           SECTION TITLES
+        =============================== */
 
         .section-title {
 
@@ -412,7 +468,7 @@
 
         /* ==============================
            PRODUCTS
-        ============================== */
+        =============================== */
 
         .products {
 
@@ -433,9 +489,11 @@
 
             border-radius: 16px;
 
-            background: rgba(255,255,255,0.055);
+            background:
+                rgba(255,255,255,0.055);
 
-            border: 1px solid rgba(255,255,255,0.1);
+            border:
+                1px solid rgba(255,255,255,0.1);
 
             min-height: 150px;
 
@@ -447,9 +505,11 @@
 
         .product-card:hover {
 
-            transform: translateY(-5px);
+            transform:
+                translateY(-5px);
 
-            background: rgba(255,255,255,0.09);
+            background:
+                rgba(255,255,255,0.09);
         }
 
 
@@ -475,7 +535,8 @@
 
         .product-card p {
 
-            color: rgba(255,255,255,0.52);
+            color:
+                rgba(255,255,255,0.52);
 
             font-size: 13px;
 
@@ -485,7 +546,7 @@
 
         /* ==============================
            INTERNATIONAL NETWORK
-        ============================== */
+        =============================== */
 
         .network {
 
@@ -510,9 +571,11 @@
 
             border-radius: 20px;
 
-            background: rgba(255,255,255,0.055);
+            background:
+                rgba(255,255,255,0.055);
 
-            border: 1px solid rgba(255,255,255,0.1);
+            border:
+                1px solid rgba(255,255,255,0.1);
 
             text-align: center;
         }
@@ -520,7 +583,8 @@
 
         .network-card h3 {
 
-            margin: 20px 0 10px;
+            margin:
+                20px 0 10px;
 
             font-size: 20px;
         }
@@ -528,7 +592,8 @@
 
         .network-card p {
 
-            color: rgba(255,255,255,0.58);
+            color:
+                rgba(255,255,255,0.58);
 
             line-height: 1.7;
 
@@ -538,15 +603,20 @@
 
         /* ==============================
            PARTNER LOGOS
-        ============================== */
+        =============================== */
 
         .partner-logo {
 
-            width: 260px;
+            width: 240px;
 
             height: 120px;
 
             margin: auto;
+
+            border:
+                1px solid rgba(255,255,255,0.12);
+
+            border-radius: 12px;
 
             display: flex;
 
@@ -554,29 +624,32 @@
 
             justify-content: center;
 
-            background: transparent;
+            background:
+                rgba(255,255,255,0.025);
+
+            padding: 12px;
+
+            overflow: hidden;
         }
 
 
         .partner-logo-img {
 
-            max-width: 240px;
+            display: block;
 
-            max-height: 105px;
+            width: 100%;
 
-            width: auto;
-
-            height: auto;
+            height: 100%;
 
             object-fit: contain;
 
-            display: block;
+            border-radius: 8px;
         }
 
 
         /* ==============================
            SM INVEST
-        ============================== */
+        =============================== */
 
         .sm-invest {
 
@@ -604,7 +677,8 @@
                     rgba(255,255,255,0.025)
                 );
 
-            border: 1px solid rgba(255,255,255,0.12);
+            border:
+                1px solid rgba(255,255,255,0.12);
         }
 
 
@@ -620,9 +694,11 @@
 
             max-width: 650px;
 
-            margin: 0 auto 28px;
+            margin:
+                0 auto 28px;
 
-            color: rgba(255,255,255,0.62);
+            color:
+                rgba(255,255,255,0.62);
 
             line-height: 1.7;
         }
@@ -656,7 +732,8 @@
 
         .button:hover {
 
-            transform: translateY(-2px);
+            transform:
+                translateY(-2px);
 
             opacity: 0.9;
         }
@@ -664,7 +741,7 @@
 
         /* ==============================
            CONTACT
-        ============================== */
+        =============================== */
 
         .contact {
 
@@ -695,9 +772,11 @@
 
             border-radius: 16px;
 
-            background: rgba(255,255,255,0.045);
+            background:
+                rgba(255,255,255,0.045);
 
-            border: 1px solid rgba(255,255,255,0.1);
+            border:
+                1px solid rgba(255,255,255,0.1);
         }
 
 
@@ -709,7 +788,8 @@
 
             text-transform: uppercase;
 
-            color: rgba(255,255,255,0.45);
+            color:
+                rgba(255,255,255,0.45);
 
             margin-bottom: 10px;
         }
@@ -739,7 +819,7 @@
 
         /* ==============================
            FOOTER
-        ============================== */
+        =============================== */
 
         footer {
 
@@ -750,7 +830,8 @@
 
             text-align: center;
 
-            color: rgba(255,255,255,0.4);
+            color:
+                rgba(255,255,255,0.4);
 
             font-size: 12px;
 
@@ -767,8 +848,8 @@
 
 
         /* ==============================
-           TABLET
-        ============================== */
+           MOBILE
+        =============================== */
 
         @media (max-width: 800px) {
 
@@ -799,13 +880,8 @@
 
                 text-align: center;
             }
-
         }
 
-
-        /* ==============================
-           MOBILE
-        ============================== */
 
         @media (max-width: 500px) {
 
@@ -829,37 +905,18 @@
 
             .main-logo {
 
-                width: 250px;
+                width: 230px;
 
-                height: 130px;
-
-                margin-top: 25px;
-            }
-
-
-            .volans-logo {
-
-                max-width: 235px;
-
-                max-height: 120px;
+                min-height: 120px;
             }
 
 
             .partner-logo {
 
-                width: 230px;
+                width: 210px;
 
-                height: 110px;
+                height: 105px;
             }
-
-
-            .partner-logo-img {
-
-                max-width: 215px;
-
-                max-height: 95px;
-            }
-
         }
 
     </style>
@@ -872,7 +929,7 @@
 
     <!-- ==============================
          HEADER
-    ============================== -->
+    =============================== -->
 
     <header>
 
@@ -885,7 +942,6 @@
                     Volans AgriTech
 
                 </div>
-
 
                 <div class="network-label">
 
@@ -905,7 +961,7 @@
 
         <!-- ==============================
              HERO
-        ============================== -->
+        =============================== -->
 
         <section class="hero">
 
@@ -918,7 +974,7 @@
 
                     <img
                         src="volans%20logo.jpg"
-                        alt="Volans AgriTech"
+                        alt="Volans AgriTech logo - Indian international trading company"
                         class="volans-logo"
                     >
 
@@ -949,8 +1005,8 @@
 
                 <p class="hero-subtitle">
 
-                    Connecting international buyers with trusted
-                    suppliers across India and Europe.
+                    Volans AgriTech connects international buyers
+                    with trusted suppliers across India and Europe.
 
                 </p>
 
@@ -959,7 +1015,7 @@
 
                     <span class="pulse"></span>
 
-                    Our New Website Is Coming Soon
+                    International Trading & Global Supply
 
                 </div>
 
@@ -969,8 +1025,8 @@
 
 
         <!-- ==============================
-             INTRO
-        ============================== -->
+             INTRODUCTION
+        =============================== -->
 
         <section>
 
@@ -978,14 +1034,23 @@
 
                 <p class="intro">
 
-                    Volans AgriTech connects global buyers with
-                    reliable suppliers across agricultural products,
-                    food ingredients, industrial products,
-                    sustainable solutions and selected German
-                    engineering and laboratory technology.
+                    <strong>Volans AgriTech Pvt. Ltd.</strong> is an
+                    India-based international trading company
+                    connecting global buyers with reliable suppliers
+                    across agricultural products, food ingredients,
+                    animal feed, industrial products, sustainable
+                    solutions and selected German engineering and
+                    laboratory technology.
 
-                    Our new international trading platform is
-                    currently being developed.
+                    We facilitate international trade between
+                    trusted suppliers and buyers across India,
+                    Europe, the Middle East, Africa and other
+                    global markets.
+
+                    We are building long-term international
+                    trade relationships by connecting qualified
+                    buyers with trusted suppliers across India
+                    and Europe.
 
                 </p>
 
@@ -996,7 +1061,7 @@
 
         <!-- ==============================
              PRODUCTS
-        ============================== -->
+        =============================== -->
 
         <section>
 
@@ -1006,10 +1071,9 @@
 
                     <h2>
 
-                        What We Trade
+                        Products & International Supply
 
                     </h2>
-
 
                     <p>
 
@@ -1023,210 +1087,175 @@
                 <div class="products">
 
 
+                    <!-- 01 -->
+
                     <div class="product-card">
 
                         <div class="product-number">
-
                             01
-
                         </div>
 
-
                         <h3>
-
-                            Food & Agriculture
-
+                            Indian Spices & Food Products
                         </h3>
 
-
                         <p>
-
                             Indian spices, dry fruits,
-                            jackfruit powder and agricultural
-                            products.
-
+                            food ingredients and selected
+                            agricultural products for
+                            international buyers.
                         </p>
 
                     </div>
 
 
+                    <!-- 02 -->
+
                     <div class="product-card">
 
                         <div class="product-number">
-
                             02
-
                         </div>
 
-
                         <h3>
-
-                            Animal Feed
-
+                            Guar Gum & Derivatives
                         </h3>
 
-
                         <p>
-
-                            Feed ingredients and selected
-                            agricultural derivatives.
-
+                            Guar gum and agricultural
+                            derivatives supplied from
+                            India for international
+                            industrial and food markets.
                         </p>
 
                     </div>
 
 
+                    <!-- 03 -->
+
                     <div class="product-card">
 
                         <div class="product-number">
-
                             03
-
                         </div>
 
-
                         <h3>
-
-                            Castor Products
-
+                            Castor Oil & Derivatives
                         </h3>
 
-
                         <p>
-
-                            Castor oil and derivatives for
-                            international industrial markets.
-
+                            Castor oil and selected
+                            castor derivatives for
+                            international industrial
+                            applications.
                         </p>
 
                     </div>
 
 
+                    <!-- 04 -->
+
                     <div class="product-card">
 
                         <div class="product-number">
-
                             04
-
                         </div>
 
-
                         <h3>
-
-                            Industrial Products
-
+                            Rice & Millets
                         </h3>
 
-
                         <p>
-
-                            Agrochemical intermediates,
-                            mechanical components and valves.
-
+                            Basmati rice, non-basmati rice,
+                            millets and other Indian
+                            agricultural products for
+                            global markets.
                         </p>
 
                     </div>
 
 
+                    <!-- 05 -->
+
                     <div class="product-card">
 
                         <div class="product-number">
-
                             05
-
                         </div>
 
-
                         <h3>
-
-                            Sustainable Solutions
-
+                            Animal Feed
                         </h3>
 
-
                         <p>
-
-                            Biodegradable and sustainable
-                            packaging solutions.
-
+                            Feed ingredients and selected
+                            agricultural derivatives for
+                            international animal nutrition
+                            markets.
                         </p>
 
                     </div>
 
 
+                    <!-- 06 -->
+
                     <div class="product-card">
 
                         <div class="product-number">
-
                             06
-
                         </div>
 
-
                         <h3>
-
-                            German Engineering
-
+                            Jackfruit & Plant-Based Products
                         </h3>
 
-
                         <p>
-
-                            Mechanical components and valves
-                            from selected German suppliers.
-
+                            Jackfruit powder, flour and
+                            selected plant-based ingredients
+                            supplied from India.
                         </p>
 
                     </div>
 
 
+                    <!-- 07 -->
+
                     <div class="product-card">
 
                         <div class="product-number">
-
                             07
-
                         </div>
 
-
                         <h3>
-
-                            Laboratory Technology
-
+                            Sustainable Packaging
                         </h3>
 
-
                         <p>
-
-                            Laboratory and analytical instruments
-                            from Germany.
-
+                            Biodegradable and sustainable
+                            packaging solutions for
+                            international businesses.
                         </p>
 
                     </div>
 
 
+                    <!-- 08 -->
+
                     <div class="product-card">
 
                         <div class="product-number">
-
                             08
-
                         </div>
 
-
                         <h3>
-
-                            Global Supply
-
+                            Industrial & German Technology
                         </h3>
 
-
                         <p>
-
-                            Connecting international buyers
-                            with trusted supply partners.
-
+                            Mechanical components, valves,
+                            laboratory technology and
+                            selected German engineering
+                            solutions.
                         </p>
 
                     </div>
@@ -1241,7 +1270,7 @@
 
         <!-- ==============================
              INTERNATIONAL NETWORK
-        ============================== -->
+        =============================== -->
 
         <section class="network">
 
@@ -1251,16 +1280,11 @@
                 <div class="section-title">
 
                     <h2>
-
                         Our International Network
-
                     </h2>
 
-
                     <p>
-
                         Connecting India and Europe with global markets
-
                     </p>
 
                 </div>
@@ -1278,7 +1302,7 @@
 
                             <img
                                 src="Sabki-Mandi%20logo.jpg"
-                                alt="Sabki Mandi"
+                                alt="Sabki Mandi international B2B trading platform"
                                 class="partner-logo-img"
                             >
 
@@ -1286,9 +1310,7 @@
 
 
                         <h3>
-
                             Sabki Mandi
-
                         </h3>
 
 
@@ -1312,7 +1334,7 @@
 
                             <img
                                 src="SM-Invest-Logo.png"
-                                alt="SM-Invest GmbH"
+                                alt="SM-Invest GmbH Germany European business network"
                                 class="partner-logo-img"
                             >
 
@@ -1320,9 +1342,7 @@
 
 
                         <h3>
-
                             SM-Invest GmbH
-
                         </h3>
 
 
@@ -1331,7 +1351,8 @@
                             Our European business network,
                             based in Wiesbaden, Germany,
                             supporting international business
-                            cooperation and trade.
+                            cooperation, trade, engineering
+                            solutions and technology.
 
                         </p>
 
@@ -1347,7 +1368,7 @@
 
         <!-- ==============================
              EUROPEAN BUSINESS NETWORK
-        ============================== -->
+        =============================== -->
 
         <section class="sm-invest">
 
@@ -1358,9 +1379,7 @@
 
 
                     <h2>
-
                         Our European Business Network
-
                     </h2>
 
 
@@ -1396,8 +1415,8 @@
 
 
         <!-- ==============================
-             CONTACT
-        ============================== -->
+             INTERNATIONAL ENQUIRIES
+        =============================== -->
 
         <section class="contact">
 
@@ -1407,16 +1426,15 @@
                 <div class="section-title">
 
                     <h2>
-
                         International Enquiries
-
                     </h2>
 
 
                     <p>
 
-                        We are currently accepting business enquiries
-                        while our new website is being developed.
+                        We welcome enquiries from international
+                        buyers, distributors, importers and
+                        business partners.
 
                     </p>
 
@@ -1445,11 +1463,14 @@
                         </h3>
 
 
-                        <a href="mailto:amit@volansagri.com">
+                        <a
+                            href="mailto:amit@volansagri.com"
+                        >
 
                             amit@volansagri.com
 
                         </a>
+
 
                     </div>
 
@@ -1473,11 +1494,14 @@
                         </h3>
 
 
-                        <a href="mailto:info@sm-invest.net">
+                        <a
+                            href="mailto:info@sm-invest.net"
+                        >
 
                             info@sm-invest.net
 
                         </a>
+
 
                     </div>
 
@@ -1488,12 +1512,13 @@
 
         </section>
 
+
     </main>
 
 
     <!-- ==============================
          FOOTER
-    ============================== -->
+    =============================== -->
 
     <footer>
 
@@ -1503,7 +1528,9 @@
             <p>
 
                 © <span id="year"></span>
+
                 Volans AgriTech Pvt. Ltd.
+
                 All Rights Reserved.
 
             </p>
@@ -1543,8 +1570,8 @@
 
 
     <!-- ==============================
-         YEAR
-    ============================== -->
+         YEAR SCRIPT
+    =============================== -->
 
     <script>
 
